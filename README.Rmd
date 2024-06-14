@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # jblibminer
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/jennybc/jblibminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jennybc/jblibminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of jblibminer is to summarize the packages you have installed in your R libraries.

@@ -4,6 +4,8 @@
 # jblibminer
 
 <!-- badges: start -->
+
+[![R-CMD-check](https://github.com/jennybc/jblibminer/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jennybc/jblibminer/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of jblibminer is to summarize the packages you have installed
@@ -29,7 +31,7 @@ library(jblibminer)
 lib_summary()
 #>                                                                Library
 #> 1 /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library
-#> 2                     /private/tmp/RtmpDlkMGV/temp_libpathc48852e216d9
+#> 2                     /private/tmp/RtmpX5tK7P/temp_libpathc92a1249d235
 #> 3                             /Users/jenny/Library/R/arm64/4.4/library
 #>   n_packages
 #> 1         29
@@ -42,10 +44,10 @@ lib_summary()
 lib_summary(sizes = TRUE)
 #>                                                                Library
 #> 1 /Library/Frameworks/R.framework/Versions/4.4-arm64/Resources/library
-#> 2                     /private/tmp/RtmpDlkMGV/temp_libpathc48852e216d9
+#> 2                     /private/tmp/RtmpX5tK7P/temp_libpathc92a1249d235
 #> 3                             /Users/jenny/Library/R/arm64/4.4/library
 #>   n_packages  lib_size
 #> 1         29  75816439
-#> 2          1     14328
-#> 3        197 333671705
+#> 2          1     14327
+#> 3        197 333672637
 ```
