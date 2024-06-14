@@ -12,3 +12,6 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1.9000
 URL: https://github.com/jennybc/jblibminer
 BugReports: https://github.com/jennybc/jblibminer/issues
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
