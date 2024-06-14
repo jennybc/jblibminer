@@ -4,7 +4,10 @@
 \alias{lib_summary}
 \title{R Library Summary}
 \usage{
-lib_summary()
+lib_summary(sizes = FALSE)
+}
+\arguments{
+\item{sizes}{Logical: do you want to know the size occupied by the packages in your library?}
 }
 \value{
 A data.frame containing the count of packages in each of the user's
